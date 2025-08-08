@@ -1,0 +1,28 @@
+{
+  "name": "artisanfw/starter",
+  "description": "Any Artisan project from scratch starts here!",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Airam",
+      "email": "airamb@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/artisanfw/api.git"
+    }
+  ],
+  "require": {
+    "php": ">=8.3",
+    "artisanfw/api": "^1.0"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Api\\": "src/"
+    }
+  }
+}
